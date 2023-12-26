@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Downloader</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #e0e0e0;
+            padding: 20px;
+        }
+        .card {
+            margin-top: 20px;
+            box-shadow: 5px 5px 15px #bfbfbf, -5px -5px 15px #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">YTDownloader</h5>
+                        <form method="post">
+                            <div class="form-group">
+                                <label for="video_url">Enter YouTube Video URL:</label>
+                                <input type="text" class="form-control" id="video_url" name="video_url" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Download</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
